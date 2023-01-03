@@ -26,7 +26,7 @@ class App extends Component {
 
   loadResumeFromPath(path) {
     $.ajax({
-      url: `res_primaryLanguage.json`,
+      url: `resume.json`,
       dataType: "json",
       cache: false,
       success: function (data) {

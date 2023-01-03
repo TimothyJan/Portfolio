@@ -13,6 +13,7 @@ class Experience extends Component {
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
+        const descriptions = work.descriptions;
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
@@ -28,16 +29,24 @@ class Experience extends Component {
             </Badge>
           );
         });
+        var description = descriptions.map((desc, i) => {
+          return (
+            <Badge className="" key={i}>
+              - {desc}
+            </Badge>
+          );
+        });
         return (
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--education"
             date={work.years}
             iconStyle={{
               background: "#AE944F",
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            // icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={<i class="fab fa-font-awesome-flag experience-icon"></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -57,6 +66,7 @@ class Experience extends Component {
               {work.company}
             </h4>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            <div style={{ textAlign: "left", marginTop: "1px" }}>{description}</div>
           </VerticalTimelineElement>
         );
       });
