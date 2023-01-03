@@ -170,6 +170,10 @@ header h1 {
 	text-align: center;
 }
 
+.more-projects-link {
+	text-align: right;
+}
+
 .polaroid img {
 	display: block;
 	max-width: 500px;
@@ -240,6 +244,17 @@ header h1 {
 }
 
 .experience-badge {
+	font-size: 11px !important;
+	text-align: left !important;
+	padding: 5px 8px 5px 8px !important;
+	vertical-align: baseline;
+	background-color: #f9f5e9 !important;
+	color: black;
+	font-weight: lighter !important;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.description-badge {
 	font-size: 11px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;

@@ -6,7 +6,12 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
+function alternatePositions(position) {
+  return (position%2===0 ? "right" : "left")
+}
+
 class Experience extends Component {
+
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
@@ -31,7 +36,7 @@ class Experience extends Component {
         });
         var description = descriptions.map((desc, i) => {
           return (
-            <Badge className="" key={i}>
+            <Badge className="description-badge mr-2 mb-2" key={i}>
               - {desc}
             </Badge>
           );
@@ -39,6 +44,7 @@ class Experience extends Component {
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
+            position={alternatePositions(i)}
             date={work.years}
             iconStyle={{
               background: "#AE944F",
