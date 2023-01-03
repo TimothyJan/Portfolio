@@ -1,0 +1,161 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Timothy Jan. I'm a curious, motivated and open-minded guy searching for Software Engineer roles and eager to find company to learn and grow with.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Movie Recommender",
+        "startDate": "2022",
+        "description": "Full stack web app using the MERN stack (MongoDB, Express, React, and Node.js) and Django REST Web API (Pandas, NumPy and Tensorflow Keras) for making movie recommendations. CRUD (Create, Read, Update and Delete) movie reviews and ratings to be recommended movies.",
+        "images": [
+          "images/portfolio/movie-recommender/1-HomePage.png",
+          "images/portfolio/movie-recommender/2-MovieWithReview.png",
+          "images/portfolio/movie-recommender/3-AddReview.png",
+          "images/portfolio/movie-recommender/4-Reviews.png",
+          "images/portfolio/movie-recommender/5-MovieRecs.png"
+        ],
+        "url": "https://github.com/TimothyJan/MERN-Movie-Recommender",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-tensorflow-original",
+            "name": "Tensorflow"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDb"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain-wordmark",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Recipe Book and Shopping List",
+        "startDate": "2022",
+        "description": "Angular app hosted on Firebase generated with Angular CLI. Login/Signup with authentication using the Firebase Auth REST API. Manage your recipes and view them in detail. Manage your shopping list and push ingredients from a recipe directly to the shopping list. Recipes and shopping list are saved and fetched using the Firebase Database REST API. Webapp securely hosted using Firebase Hosting.",
+        "images": [
+          "images/portfolio/recipe-book/1-recipes.png",
+          "images/portfolio/recipe-book/2-recipes-edit.png",
+          "images/portfolio/recipe-book/3-shopping-list.png"
+        ],
+        "url": "https://github.com/TimothyJan/Recipe-Book-and-Shopping-List-Angular-App",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "CALIFORNIA STATE UNIVERSITY FULLERTON",
+        "title": "M.S IN COMPUTER SCIENCE",
+        "years": "August 2020 - December 2022",
+        "mainTech": [],
+        "technologies": [],
+        "descriptions":[]
+      },
+      {
+        "company": "APPLIED MEDICAL",
+        "title": "PROCESS ENGINEER",
+        "years": "March 2019 - November 2020",
+        "mainTech": ["Python"],
+        "technologies": [
+          "Oscillscope",
+          "DMM",
+          "AWG"
+        ],
+        "descriptions":[
+          "Revamped Python scripts and excel sheets that resulted in analysis and data collection to be faster, scalable and have better exception handling.",
+          "Qualified a new harness for laparoscopic devices through collaboration with multiple teams (R&D, Regulatory Analysis, and Quality etc.) that reduced costs by 90% and improved RF energy efficiency.",
+          "Reduced costs, enhanced overall efficiency and customer ease of use by becoming the main point of contact between R&D teams, harness vendors and clinical team."
+        ]
+      },
+      {
+        "company": "ABBOTT",
+        "title": "FAILURE ANALYSIS ENGINEER II",
+        "years": "February 2019 - May 2019",
+        "mainTech": [],
+        "technologies": [
+          "Oscillscope",
+          "DMM",
+          "Power Supply"
+        ],
+        "descriptions":[
+          "Implemented different in-depth examinations/troubleshooting for returned medical devices with issues to identify the root cause.",
+          "Evaluated device performances, images, interrogations, and longevity using in-house tools to produce analysis reports."
+        ]
+      },
+      {
+        "company": "ABBOTT",
+        "title": "ELECTRICAL ENGINEER I",
+        "years": "June 2018 - January 2019",
+        "mainTech": [],
+        "technologies": [
+          "Oscillscope",
+          "DMM",
+          "AWG",
+          "Function Generator",
+          "Current Amplifier",
+          "Power Supply",
+          "Battery Simulator"
+        ],
+        "descriptions":[
+          "Executed and modified sequences/modules using in-house development tools for developing and testing implantable medical devices in St. Jude Medical.",
+          "Troubleshot medical devices to identify and isolate firmware and software issues using data acquisition/measurement devices such as oscilloscopes, DMMs, and AWGs etc.",
+          "Analyzed data to generate Quality and R&D reports for future product improvement."
+        ]
+      },
+      {
+        "company": "HYCOR BIOMEDICAL",
+        "title": "SOFTWARE TEST ENGINEER",
+        "years": "July 2017 - June 2018",
+        "mainTech": [],
+        "technologies": [
+          "TESTTRACK"
+        ],
+        "descriptions":[
+          "Conducted test protocols and simulations for the allergy/autoimmune antibody testing software and instruments.",
+          "Utilized TESTTRACK software for bug/defect tracking and documentation.",
+          "Configured PCs with necessary software and hardware to operate allergy/autoimmune antibody testing software/instruments."
+        ]
+      },
+      {
+        "company": "UNIVERSITY OF CALIFORNIA IRVINE",
+        "title": "B.S IN ELECTRICAL ENGINEERING",
+        "years": "September 2013 - June 2017",
+        "mainTech": [],
+        "technologies": [],
+        "descriptions":[]
+      }
+    ]
+  }
