@@ -21,11 +21,12 @@ class App extends Component {
 
   componentDidMount() {
     this.loadSharedData();
+    this.loadResumeFromPath();
   }
 
   loadResumeFromPath(path) {
     $.ajax({
-      url: path,
+      url: `res_primaryLanguage.json`,
       dataType: "json",
       cache: false,
       success: function (data) {
