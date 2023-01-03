@@ -11,42 +11,41 @@
     },
     "projects": [
       {
-        "title": "MERN Movie Recommender",
+        "title": "Movie Recommender",
         "startDate": "2022",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Full stack web app using the MERN stack (MongoDB, Express, React, and Node.js) and Django REST Web API (Pandas, NumPy and Tensorflow Keras) for making movie recommendations. CRUD (Create, Read, Update and Delete) movie reviews and ratings to be recommended movies.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/movie-recommender/1-HomePage.png",
+          "images/portfolio/movie-recommender/2-MovieWithReview.png",
+          "images/portfolio/movie-recommender/3-AddReview.png",
+          "images/portfolio/movie-recommender/4-Reviews.png",
+          "images/portfolio/movie-recommender/5-MovieRecs.png"
         ],
-        "url": "",
+        "url": "https://github.com/TimothyJan/MERN-Movie-Recommender",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-tensorflow-original",
+            "name": "Tensorflow"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDb"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
           {
             "class": "devicon-react-original",
             "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain-wordmark",
+            "name": "NodeJS"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,14 +54,15 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Recipe Book and Shopping List",
+        "startDate": "2022",
+        "description": "Angular app hosted on Firebase generated with Angular CLI. Login/Signup with authentication using the Firebase Auth REST API. Manage your recipes and view them in detail. Manage your shopping list and push ingredients from a recipe directly to the shopping list. Recipes and shopping list are saved and fetched using the Firebase Database REST API. Webapp securely hosted using Firebase Hosting.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/recipe-book/1-recipes.png",
+          "images/portfolio/recipe-book/2-recipes-edit.png",
+          "images/portfolio/recipe-book/3-shopping-list.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/TimothyJan/Recipe-Book-and-Shopping-List-Angular-App",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -71,10 +71,6 @@
           {
             "class": "devicon-typescript-plain",
             "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
           }
         ]
       }
@@ -115,7 +111,7 @@
           "Power Supply"
         ],
         "descriptions":[
-          "Implemented different in-depth examinations and troubleshooting suitable for each returned medical devices with issues and/or complaints to identify the root cause.",
+          "Implemented different in-depth examinations/troubleshooting for returned medical devices with issues to identify the root cause.",
           "Evaluated device performances, images, interrogations, and longevity using in-house tools to produce analysis reports."
         ]
       },
@@ -150,7 +146,7 @@
         "descriptions":[
           "Conducted test protocols and simulations for the allergy/autoimmune antibody testing software and instruments.",
           "Utilized TESTTRACK software for bug/defect tracking and documentation.",
-          "Configured personal computers with necessary software and hardware to operate allergy/autoimmune antibody testing software and instruments."
+          "Configured PCs with necessary software and hardware to operate allergy/autoimmune antibody testing software/instruments."
         ]
       },
       {
