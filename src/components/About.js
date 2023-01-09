@@ -4,6 +4,7 @@ import pythonIcon from '@iconify/icons-logos/python';
 import cPlusplus from '@iconify/icons-logos/c-plusplus';
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
+import djangoIcon from "@iconify/icons-logos/django";
 
 class About extends Component {
   render() {
@@ -33,19 +34,23 @@ class About extends Component {
                   />
                   <Icon
                     icon={pythonIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={cPlusplus}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={angularIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={djangoIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>
