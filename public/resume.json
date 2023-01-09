@@ -11,26 +11,52 @@
     },
     "projects": [
       {
-        "title": "Movie Recommender",
-        "startDate": "2022",
-        "description": "Full stack web app using the MERN stack (MongoDB, Express, React, and Node.js) and Django REST Web API (Pandas, NumPy and Tensorflow Keras) for making movie recommendations. CRUD (Create, Read, Update and Delete) movie reviews and ratings to be recommended movies.",
+        "title": "Music Controller",
+        "startDate": "2023",
+        "description": "Collaborative music playing full stack web app integrated with the third party Spotify API using Python(Django/Django Rest Framework) and Javascript(React). Host creates a room for people to listen to Spotify music. Host controls the guests permissions such as how many votes are needed to skip the song and whether guests can pause/play songs. Guests can join the room using the room code. Spotify Premium required.",
         "images": [
-          "images/portfolio/movie-recommender/1-HomePage.png",
-          "images/portfolio/movie-recommender/2-MovieWithReview.png",
-          "images/portfolio/movie-recommender/3-AddReview.png",
-          "images/portfolio/movie-recommender/4-Reviews.png",
-          "images/portfolio/movie-recommender/5-MovieRecs.png"
+          "images/portfolio/music-controller/1-HomePage.png",
+          "images/portfolio/music-controller/2-CreateRoomPage.png",
+          "images/portfolio/music-controller/3-RoomPagewSkip.png",
+          "images/portfolio/music-controller/4-UpdateRoom.png",
+          "images/portfolio/music-controller/5-UpdatedRoom.png"
         ],
-        "url": "https://github.com/TimothyJan/MERN-Movie-Recommender",
+        "url": "https://github.com/TimothyJan/Music-Controller-Web-App",
         "technologies": [
           {
             "class": "devicon-python-plain",
             "name": "Python"
           },
           {
-            "class": "devicon-tensorflow-original",
-            "name": "Tensorflow"
+            "class": "devicon-django-plain",
+            "name": "Django"
           },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain-wordmark",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Movie Reviewer",
+        "startDate": "2022",
+        "description": "Full stack web app using the MERN stack (MongoDB, Express, React, and Node.js) to CRUD (Create, Read, Update and Delete) movie reviews and ratings.",
+        "images": [
+          "images/portfolio/movie-reviewer/1-HomePage.png",
+          "images/portfolio/movie-reviewer/2-MovieWithReview.png",
+          "images/portfolio/movie-reviewer/3-AddReview.png",
+          "images/portfolio/movie-reviewer/4-Reviews.png"
+        ],
+        "url": "https://github.com/TimothyJan/MERN-Movie-Recommender",
+        "technologies": [
           {
             "class": "devicon-mongodb-plain",
             "name": "MongoDb"
