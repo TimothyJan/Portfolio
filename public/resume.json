@@ -24,23 +24,23 @@
         "url": "https://github.com/TimothyJan/Music-Controller-Web-App",
         "technologies": [
           {
-            "class": "devicon-python-plain",
+            "class": "devicon-python-plain colored",
             "name": "Python"
           },
           {
-            "class": "devicon-django-plain",
+            "class": "devicon-django-plain colored",
             "name": "Django"
           },
           {
-            "class": "devicon-react-original",
+            "class": "devicon-react-original colored",
             "name": "React"
           },
           {
-            "class": "devicon-nodejs-plain-wordmark",
+            "class": "devicon-nodejs-plain-wordmark colored",
             "name": "NodeJS"
           },
           {
-            "class": "devicon-javascript-plain",
+            "class": "devicon-javascript-plain colored",
             "name": "JavaScript"
           }
         ]
@@ -58,23 +58,23 @@
         "url": "https://github.com/TimothyJan/MERN-Movie-Recommender",
         "technologies": [
           {
-            "class": "devicon-mongodb-plain",
+            "class": "devicon-mongodb-plain colored",
             "name": "MongoDb"
           },
           {
-            "class": "devicon-express-original",
+            "class": "devicon-express-original colored",
             "name": "Express"
           },
           {
-            "class": "devicon-react-original",
+            "class": "devicon-react-original colored",
             "name": "React"
           },
           {
-            "class": "devicon-nodejs-plain-wordmark",
+            "class": "devicon-nodejs-plain-wordmark colored",
             "name": "NodeJS"
           },
           {
-            "class": "devicon-javascript-plain",
+            "class": "devicon-javascript-plain colored",
             "name": "JavaScript"
           }
         ]
@@ -91,12 +91,34 @@
         "url": "https://github.com/TimothyJan/Recipe-Book-and-Shopping-List-Angular-App",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
+            "class": "devicon-angularjs-plain colored",
             "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
+            "class": "devicon-typescript-plain colored",
             "name": "TypeScript"
+          }
+        ]
+      },
+      {
+        "title": "Workout Tracker Web App",
+        "startDate": "2022",
+        "description": "Web app to CRUD workout days with Strength and Cardio training sets using ASP.NET Core MVC, Entity Framework Core and migrations to SQL Server in Visual Studio 2022. Using simple JavaScript toast notifications from Toastr.",
+        "images": [
+          "images/portfolio/workout-tracker/00-Workout List.png",
+          "images/portfolio/workout-tracker/01-Create Workout.png",
+          "images/portfolio/workout-tracker/02-Strength List.png",
+          "images/portfolio/workout-tracker/03-Cardio List.png"
+        ],
+        "url": "https://github.com/TimothyJan/Workout-Tracker-Web-App",
+        "technologies": [
+          {
+            "class": "devicon-visualstudio-plain colored",
+            "name": "Visual Studio 2022"
+          },
+          {
+            "class": "devicon-csharp-plain colored",
+            "name": "C#"
           }
         ]
       }
