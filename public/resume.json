@@ -4,12 +4,101 @@
       "description": "👋 I'm Timothy Jan. I'm a curious, motivated and open-minded guy searching for Software Engineer roles and eager to find company to learn and grow with. My grandfather was an Electrical Engineer, my dad was an Electrical Engineer, then I majored and worked in the Electrical Engineering field for 3 years. But while working with Software Engineers I learned I had a passion for programming and decided to commit to a career change into Software Engineering (Sorry Dad 😅). I just finished my Master of Science in Computer Science from California State University Fullerton and I’m eager to apply what I've learned!",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
+        "machine_learning": "Machine Learning",
+        "full_stack_development": "Full-Stack Development",
         "skills": "Skills",
         "experience": "Experience"
       }
     },
-    "projects": [
+    "machine_learning": [
+      {
+        "title": "Autoencoder Movie Recommender",
+        "startDate": "2022",
+        "description": "We apply autoencoders to the task of making movie recommendations on a Jupyter Notebook. This example demonstrates Collaborative filtering using the Movielens dataset to recommend movies to users. We apply a variational autoencoder to add an additional sampling layer to the network.",
+        "images": [
+          "images/portfolio/movie-recommender/1-ReadMe.png",
+          "images/portfolio/movie-recommender/2-Code.png",
+          "images/portfolio/movie-recommender/3-Code.png",
+          "images/portfolio/movie-recommender/4-Code.png"
+        ],
+        "url": "https://github.com/TimothyJan/Autoencoder-Movie-Recommender",
+        "technologies": [
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-tensorflow-original colored",
+            "name": "TensorFlow"
+          },
+          {
+            "class": "devicon-pandas-original colored",
+            "name": "Pandas"
+          },
+          {
+            "class": "devicon-numpy-original colored",
+            "name": "Numpy"
+          }
+        ]
+      },
+      {
+        "title": "RNN TEXT GENERATION",
+        "startDate": "2022",
+        "description": "Character-based Recurrent Neural Network that is trained to generate text using different datasets using NumPy and Tensorflow on a Jupyter Notebook.",
+        "images": [
+          "images/portfolio/rnn-text-generation/1-process_text.png",
+          "images/portfolio/rnn-text-generation/2-build_model.png",
+          "images/portfolio/rnn-text-generation/3-train_model.png",
+          "images/portfolio/rnn-text-generation/4-generate.png"
+        ],
+        "url": "https://github.com/TimothyJan/RNN_Text_Generation",
+        "technologies": [
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-tensorflow-original colored",
+            "name": "TensorFlow"
+          },
+          {
+            "class": "devicon-numpy-original colored",
+            "name": "Numpy"
+          }
+        ]
+      },
+      {
+        "title": "CNN HANDWRITTEN ALPHABET RECOGNITION",
+        "startDate": "2022",
+        "description": "We recognize handwritten characters(English alphabets) from A-Z by modeling a Convolutional Neural Network that will be trained over a dataset containing images of alphabets. Using Numpy, openCV, Keras, Tensorflow, Matplotlib and Pandas. The dataset for this project contains 372450 images of alphabets of 28×2, all present in the form of a CSV file: Handwritten character recognition dataset",
+        "images": [
+          "images/portfolio/cnn-alpha-rec/1-read_data.png",
+          "images/portfolio/cnn-alpha-rec/2-process_data.png",
+          "images/portfolio/cnn-alpha-rec/3-compile_data.png",
+          "images/portfolio/cnn-alpha-rec/4-prediction.png"
+        ],
+        "url": "https://github.com/TimothyJan/Handwritten-Alphabet-Recognition-CNN",
+        "technologies": [
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-tensorflow-original colored",
+            "name": "TensorFlow"
+          },
+          {
+            "class": "devicon-pandas-original colored",
+            "name": "Pandas"
+          },
+          {
+            "class": "devicon-numpy-original colored",
+            "name": "Numpy"
+          }
+        ]
+      }
+    ],
+    "full_stack_development": [
       {
         "title": "Music Controller",
         "startDate": "2023",

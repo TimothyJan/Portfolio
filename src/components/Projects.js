@@ -17,7 +17,8 @@ class Projects extends Component {
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
+      // var sectionName = this.props.resumeBasicInfo.section_name.full_stack_development;
+      var sectionName = this.props.sectionName
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
