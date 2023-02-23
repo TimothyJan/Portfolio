@@ -1,6 +1,9 @@
 # Portfolio
 Portfolio website for Timothy Jan
 
+View:
+<a href="https://timothyjan.github.io/Portfolio/">Tim's Portfolio</a>
+
 Use:
 <ul>
   <li>Remove homepage from package.json.</li>

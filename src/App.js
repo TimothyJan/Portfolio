@@ -62,7 +62,13 @@ class App extends Component {
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
         <Projects
-          resumeProjects={this.state.resumeData.projects}
+          sectionName="Full-Stack Development"
+          resumeProjects={this.state.resumeData.full_stack_development}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Projects
+          sectionName="Machine Learning"
+          resumeProjects={this.state.resumeData.machine_learning}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Skills
