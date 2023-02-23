@@ -46,7 +46,40 @@
         ]
       },
       {
-        "title": "Movie Reviewer",
+        "title": "Movie Reviewer - SpringBoot/React",
+        "startDate": "2023",
+        "description": "Full stack web app using Mongodb for database, Java and Spring Boot for the backend, and React for the frontend. User can scroll through the movies, view the trailers and create movie reviews.",
+        "images": [
+          "images/portfolio/movie-reviewer-Java/1-Home.png",
+          "images/portfolio/movie-reviewer-Java/2-Trailer.png",
+          "images/portfolio/movie-reviewer-Java/3-Reviews.png"
+        ],
+        "url": "https://github.com/TimothyJan/MERN-Movie-Recommender",
+        "technologies": [
+          {
+            "class": "devicon-mongodb-plain colored",
+            "name": "MongoDb"
+          },
+          {
+            "class": "devicon-spring-plain colored",
+            "name": "Spring Boot"
+          },
+          {
+            "class": "devicon-java-plain colored",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-original colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Movie Reviewer - MERN",
         "startDate": "2022",
         "description": "Full stack web app using the MERN stack (MongoDB, Express, React, and Node.js) to CRUD (Create, Read, Update and Delete) movie reviews and ratings.",
         "images": [

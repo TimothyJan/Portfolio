@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import pythonIcon from '@iconify/icons-logos/python';
 import cPlusplus from '@iconify/icons-logos/c-plusplus';
+import javaIcon from '@iconify/icons-logos/java';
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import djangoIcon from "@iconify/icons-logos/django";
@@ -34,23 +35,27 @@ class About extends Component {
                   />
                   <Icon
                     icon={pythonIcon}
-                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "250%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={cPlusplus}
-                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "250%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={javaIcon}
+                    style={{ fontSize: "250%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={reactIcon}
-                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "250%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={angularIcon}
-                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "250%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={djangoIcon}
-                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "250%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>
@@ -90,7 +95,7 @@ class About extends Component {
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />
-                    {about}
+                    <h2>{about}</h2>
                   </div>
                 </div>
               </div>
