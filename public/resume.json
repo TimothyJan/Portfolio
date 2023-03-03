@@ -12,6 +12,33 @@
     },
     "machine_learning": [
       {
+        "title": "Flight Price Prediction",
+        "startDate": "2023",
+        "description": "Flight Price Prediction Flask App using numpy, seaborn, pandas and sklearn.",
+        "images": [
+          "images/portfolio/flight-price-prediction/1-Home.png",
+          "images/portfolio/flight-price-prediction/2-Notebook1.png",
+          "images/portfolio/flight-price-prediction/3-Notebook2.png",
+          "images/portfolio/flight-price-prediction/4-Notebook3.png",
+          "images/portfolio/flight-price-prediction/5-Notebook4.png"
+        ],
+        "url": "https://github.com/TimothyJan/Flight-Price-Prediction-Flask",
+        "technologies": [
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-numpy-original colored",
+            "name": "Numpy"
+          },
+          {
+            "class": "devicon-pandas-original colored",
+            "name": "Pandas"
+          }
+        ]
+      },
+      {
         "title": "Autoencoder Movie Recommender",
         "startDate": "2022",
         "description": "We apply autoencoders to the task of making movie recommendations on a Jupyter Notebook. This example demonstrates Collaborative filtering using the Movielens dataset to recommend movies to users. We apply a variational autoencoder to add an additional sampling layer to the network.",
