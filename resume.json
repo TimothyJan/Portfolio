@@ -274,6 +274,20 @@
     ],
     "experience": [
       {
+        "company": "HelloWorld Consulting LLC",
+        "title": "SOFTWARE ENGINEER",
+        "years": "January 2023 - Present",
+        "mainTech": ["TypeScript", "JavaScript"],
+        "technologies": [
+          "Angular", 
+          "Bootstrap5"
+        ],
+        "descriptions":[
+          "Built a workforce management solution for a time keeping company.",
+          "Revamped the frontend UI and updated to use the latest frontend UX/UI using Angular."
+        ]
+      },
+      {
         "company": "CALIFORNIA STATE UNIVERSITY FULLERTON",
         "title": "M.S IN COMPUTER SCIENCE",
         "years": "August 2020 - December 2022",
@@ -292,8 +306,8 @@
           "AWG"
         ],
         "descriptions":[
-          "Revamped Python scripts and excel sheets that resulted in analysis and data collection to be faster, scalable and have better exception handling.",
-          "Qualified a new harness for laparoscopic devices through collaboration with multiple teams (R&D, Regulatory Analysis, and Quality etc.) that reduced costs by 90% and improved RF energy efficiency.",
+          "Modified Python scripts and excel sheets that resulted in analysis and data collection to be faster, scalable and have better exception handling.",
+          "Qualified a new harness for laparoscopic devices through collaboration with multiple teams that reduced costs by 90% and improved RF energy efficiency.",
           "Reduced costs, enhanced overall efficiency and customer ease of use by becoming the main point of contact between R&D teams, harness vendors and clinical team."
         ]
       },
