@@ -89,7 +89,7 @@ class Experience extends Component {
             </h1>
           </div>
         </div>
-        <div className="col-md-8 mx-auto">
+        <div className="col-lg-12 mx-auto">
           <VerticalTimeline>
             {work}
             <VerticalTimelineElement
