@@ -127,6 +127,43 @@
     ],
     "full_stack_development": [
       {
+        "title": "Books-MEAN",
+        "startDate": "2023",
+        "description": "Book management system - Angular MEAN CRUD app using Google Books API, MongoDB, Express, Angular, Node, and MDBootstrap 5.",
+        "images": [
+          "images/portfolio/books-mean/0-Mine.png",
+          "images/portfolio/books-mean/2-Search.png",
+          "images/portfolio/books-mean/3-Review.png"
+        ],
+        "url": "https://github.com/TimothyJan/Books-MEAN",
+        "technologies": [
+          {
+            "class": "devicon-mongodb-plain colored",
+            "name": "MongoDb"
+          },
+          {
+            "class": "devicon-express-original colored",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-angularjs-plain colored",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-nodejs-plain-wordmark colored",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-typescript-plain colored",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
         "title": "Music Controller",
         "startDate": "2023",
         "description": "Collaborative music playing full stack web app integrated with the third party Spotify API using Python(Django/Django Rest Framework) and Javascript(React). Host creates a room for people to listen to Spotify music. Host controls the guests permissions such as how many votes are needed to skip the song and whether guests can pause/play songs. Guests can join the room using the room code. Spotify Premium required.",
@@ -191,61 +228,6 @@
           {
             "class": "devicon-javascript-plain colored",
             "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Movie Reviewer - MERN",
-        "startDate": "2022",
-        "description": "Full stack web app using the MERN stack (MongoDB, Express, React, and Node.js) to CRUD (Create, Read, Update and Delete) movie reviews and ratings.",
-        "images": [
-          "images/portfolio/movie-reviewer/1-HomePage.png",
-          "images/portfolio/movie-reviewer/2-MovieWithReview.png",
-          "images/portfolio/movie-reviewer/3-AddReview.png",
-          "images/portfolio/movie-reviewer/4-Reviews.png"
-        ],
-        "url": "https://github.com/TimothyJan/MERN-Movie-Recommender",
-        "technologies": [
-          {
-            "class": "devicon-mongodb-plain colored",
-            "name": "MongoDb"
-          },
-          {
-            "class": "devicon-express-original colored",
-            "name": "Express"
-          },
-          {
-            "class": "devicon-react-original colored",
-            "name": "React"
-          },
-          {
-            "class": "devicon-nodejs-plain-wordmark colored",
-            "name": "NodeJS"
-          },
-          {
-            "class": "devicon-javascript-plain colored",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Recipe Book and Shopping List",
-        "startDate": "2022",
-        "description": "Angular app hosted on Firebase generated with Angular CLI. Login/Signup with authentication using the Firebase Auth REST API. Manage your recipes and view them in detail. Manage your shopping list and push ingredients from a recipe directly to the shopping list. Recipes and shopping list are saved and fetched using the Firebase Database REST API. Webapp securely hosted using Firebase Hosting.",
-        "images": [
-          "images/portfolio/recipe-book/1-recipes.png",
-          "images/portfolio/recipe-book/2-recipes-edit.png",
-          "images/portfolio/recipe-book/3-shopping-list.png"
-        ],
-        "url": "https://github.com/TimothyJan/Recipe-Book-and-Shopping-List-Angular-App",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain colored",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain colored",
-            "name": "TypeScript"
           }
         ]
       },
