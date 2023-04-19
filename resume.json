@@ -207,7 +207,41 @@
           "images/portfolio/movie-reviewer-Java/2-Trailer.png",
           "images/portfolio/movie-reviewer-Java/3-Reviews.png"
         ],
-        "url": "https://github.com/TimothyJan/MERN-Movie-Recommender",
+        "url": "https://github.com/TimothyJan/Movie-Reviewer-SpringBoot-React",
+        "technologies": [
+          {
+            "class": "devicon-mongodb-plain colored",
+            "name": "MongoDb"
+          },
+          {
+            "class": "devicon-express-original colored",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-react-original colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain-wordmark colored",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "MERN-Movie-Reviewer",
+        "startDate": "2022",
+        "description": "Full stack web app using the MERN stack (MongoDB, Express, React, and Node.js) to CRUD (Create, Read, Update and Delete) movie reviews and ratings.",
+        "images": [
+          "images/portfolio/movie-reviewer/1-HomePage.png",
+          "images/portfolio/movie-reviewer/2-MovieWithReview.png",
+          "images/portfolio/movie-reviewer/3-AddReview.png",
+          "images/portfolio/movie-reviewer/4-Reviews.png"
+        ],
+        "url": "https://github.com/TimothyJan/MERN-Movie-Reviewer",
         "technologies": [
           {
             "class": "devicon-mongodb-plain colored",
